@@ -3,13 +3,13 @@ Easing previewer for Lite XL. Currently only works with Lua.
 
 ## How to use
 
-Run `easing-preview:show` or `easing-preview:toggle` (this one keymapped to `ctrl+shift+e` by default) over the signature of a Penner easing function:
+Run `easing-preview:show` (this one mapped to `ctrl+shift+e` by default) over the signature of a Penner easing function:
 ```lua
 function linear(t, b, c, d) -- execute here
   return c * t / d + b
 end
 ```
-Click anywhere else (or run `easing-preview:hide`/`easing-preview:toggle`) to hide the prompt.
+Click anywhere else (or run `easing-preview:hide` (mapped to `ctrl+alt+e`)) to hide the prompt.
 
 ## Config
 
